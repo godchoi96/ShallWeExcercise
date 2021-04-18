@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youtube10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:orientation="vertical"
+            android:background="#FFE4B5" >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/youtube10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="DanoTV"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:text="구독자 65.7만명, 동영상 450개"
+            android:textStyle ="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여자분들에게 있어서 다이어트하는데 요요현상 등을 겪어본 사람들이라면 이 유튜버를 추천한다. 유튜버가 운동하면서 겪은 부작용, 시행착오 등을 설명해주는 등 많은 정보를 제공하므로 관심있는 사람들에게는 추천한다."
+            android:textSize ="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="추천하는 영상) 다노 레전드 스트레칭 상하체 통합본"
+            android:textSize ="17sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="검색하기"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button10"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

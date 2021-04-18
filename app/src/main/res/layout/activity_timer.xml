@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TIMER"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:orientation="vertical"
+           android:layout_marginTop="10dp">
+           
+           <Chronometer
+               android:textSize="60sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:id="@+id/chronometer"/>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="START"
+               android:textSize="12sp"
+               android:textStyle="bold"
+               android:id="@+id/btnStart1" />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="PAUSE"
+               android:textSize="12sp"
+               android:textStyle="bold"
+               android:id="@+id/btnPause1"/>
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="RESET"
+               android:textSize="12sp"
+               android:textStyle="bold"
+               android:id="@+id/btnReset1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제자리 걷기(20초) -> 제자리 뛰기(20초) -> 벤트럴 잭(40초) -> 스쿼드(40초) -> 사이드 레그레이즈(40초) -> 슬로우 버피(40초) -> 플라이 잭(40초) -> 마운틴 클라이머(40초) -> 하이니 잭(40초) -> 바이시클 크런치(40초) ->  트위스트 LI(40초) -> 점핑 잭(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="중간중간 10초씩 꼭 쉬어주세요!"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스쿼트(27초) -> 리버스 플라이[등](30초) -> 숄더 탭스[상체/팔](30초) -> 시티드 니업[복근](30초) -> 플랭크[전신](30초)"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="숨이 찰 때까지 반복합니다!"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="해당 시간이 되면 중지 후 리셋하고 시작하세요."
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

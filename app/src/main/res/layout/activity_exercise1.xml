@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="유산소 운동"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="편안한 호흡을 지속하면서 할 수 있는 운동
+                                                   숨이 차지 않으며 큰 힘을 들이지 않고도 할 수 있는 운동으로 몸 안에 최대한 많은 양의 산소를 공급시킴으로써 심장과 폐의 기능을 향상시킨다." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="추천하는 순서"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제자리 걷기(20초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제자리 뛰기(20초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="벤트럴 잭(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스쿼드(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사이드 레그레이즈(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="슬로우 버피(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="플라이 잭(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="마운틴 클라이머(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="하이니 잭(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="바이시클 크런치(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="트위스트 LI(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="점핑 잭(40초)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="중간중간 10초씩 꼭 쉬어주세요! - 반복"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

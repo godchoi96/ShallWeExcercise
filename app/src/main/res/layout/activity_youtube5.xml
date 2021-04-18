@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youtube5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:orientation="vertical"
+            android:background="#FFE4B5" >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/youtube5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="율리예스"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:text="구독자 5.99만명, 동영상 68개"
+            android:textStyle ="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="실제 헬스 트레이너로써 유튜브를 병행하며 운동에 대해 알려주는 유튜버이다. 타 유튜버들과 함께 다이어트면 다이어트, 몸 만들기면 몸 만들기 등 다재다능한 유튜버이다."
+            android:textSize ="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="추천하는 영상) 일주일만에 체중감량 11키로 가능? 불가능?"
+            android:textSize ="17sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="검색하기"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button5"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

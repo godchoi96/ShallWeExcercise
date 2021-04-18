@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youtube7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:orientation="vertical"
+            android:background="#FFE4B5" >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/youtube7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="DeSLun맨몸운동"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:text="구독자 28.5만명, 동영상 865개"
+            android:textStyle ="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="맨몸운동에 가장 특화된 유튜버라고 할 수 있다. 맨몸으로 할 수 있는 운동을 좋아하는 사람이면 추천한다."
+            android:textSize ="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="추천하는 영상) 집에서 딱 5분 이렇게 푸쉬업 해보세요."
+            android:textSize ="17sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="검색하기"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button7"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

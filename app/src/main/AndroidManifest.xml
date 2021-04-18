@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.baekseok.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Diary"></activity>
+        <activity android:name=".Youtube13" />
+        <activity android:name=".Youtube12" />
+        <activity android:name=".Youtube11" />
+        <activity android:name=".Youtube10" />
+        <activity android:name=".Youtube9" />
+        <activity android:name=".Youtube8" />
+        <activity android:name=".Youtube7" />
+        <activity android:name=".Youtube6" />
+        <activity android:name=".Youtube5" />
+        <activity android:name=".Youtube4" />
+        <activity android:name=".Youtube3" />
+        <activity android:name=".Youtube2" />
+        <activity android:name=".Youtube1" />
+        <activity android:name=".Youtuber" />
+        <activity android:name=".Timer" />
+        <activity android:name=".Exercise2" />
+        <activity android:name=".Exercise1" />
+        <activity android:name=".Course" />
+        <activity android:name=".home" />
+        <activity android:name=".Join" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
